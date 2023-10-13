@@ -35,8 +35,6 @@ const LinkList = () => {
     }
 
     const size = () => { return length };
-
-    // Return first node in list
     const headNode = () => {
         if (head === null) {
             return Error();
